@@ -12,12 +12,8 @@ e minhas habilidades técnicas são:
 - Desenvolvo automatização de rotinas e processos
 - Sempre uso a tecnologia para ajudar nos processos empresariais
 
-Estou por aqui [GitHub], [LinkedIn], [Twitter], mas a melhor maneira de conferir como estou é conferir meu [curriculum].
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FerrerasRP/) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/rferreras) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ricardoferreras) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](http://twitter.com/ricardoferreras)
 
-![stats](https://github-readme-stats.vercel.app/api?username=FerrerasRP&theme=material-palenight)
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FerrerasRP&exclude_repo=dotfiles&langs_count=8&layout=compact&theme=material-palenight)
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FerrerasRP&exclude_repo=dotfiles&langs_count=8&layout=compact&theme=material-palenight&locale=pt-br)
 
-[github]: https://github.com/FerrerasRP/
-[linkedin]: http://www.linkedin.com/in/ricardoferreras
-[twitter]: http://twitter.com/ricardoferreras
-[curriculum]: https://github.com/FerrerasRP/FerrerasRP/curriculum.pdf
+![stats](https://github-readme-stats.vercel.app/api?username=FerrerasRP&theme=material-palenight&rank_icon=github&locale=pt-br)
