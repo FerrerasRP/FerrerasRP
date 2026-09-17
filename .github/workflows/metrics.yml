@@ -1,11 +1,14 @@
 name: Metrics
 on:
   # Agenda a atualização para rodar a cada 12 horas
-  schedule: [{cron: "0 */12 * * *"}]
+  # schedule: [{cron: "0 */12 * * *"}]
+
+  # Agenda a atualização para rodar toda segunda-feira (às 00:00 UTC)
+  schedule: [{cron: "0 0 * * 1"}]
   # Permite que você execute manualmente pela aba Actions se quiser testar
   workflow_dispatch:
   # Atualiza sempre que você fizer um push na branch principal
-  push: {branches: ["master", "main"]}
+  # push: {branches: ["master", "main"]}
 
 jobs:
   github-metrics:
