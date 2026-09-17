@@ -23,7 +23,21 @@ jobs:
           options: username=FerrerasRP&layout=compact&theme=default&
           path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-        
+
+      - name: Most used (with details)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: FerrerasRP
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_ignored: ""
+          plugin_languages_limit: 10
+          config_timezone: America/Sao_Paulo
+          
       # Gera o card das metricas do perfil
       - name: Generate Metric Card
         uses: lowlighter/metrics@latest
