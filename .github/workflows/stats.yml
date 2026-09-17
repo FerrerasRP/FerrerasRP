@@ -15,31 +15,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Gera o card de linguagens mais usadas pt-BR
-      - name: Generate Top Languages Card pt-BR
+      # Gera o card de linguagens mais usadas
+      - name: Generate Top Languages Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=FerrerasRP&layout=compact&theme=default&locale=pt
-          path: top-langs-pt-br.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Gera o card de linguagens mais usadas en-US
-      - name: Generate Top Languages Card en-US
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=FerrerasRP&layout=compact&theme=default&locale=en
-          path: top-langs-en-us.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-       # Gera o card de linguagens mais usadas es-ES
-      - name: Generate Top Languages Card es-ES
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=FerrerasRP&layout=compact&theme=default&locale=es
-          path: top-langs-es-es.svg
+          options: username=FerrerasRP&layout=compact&theme=default&
+          path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
         
       # Gera o card das metricas do perfil
