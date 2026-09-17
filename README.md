@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="./metrics.plugin.FerrerasRP.svg" width="100%" alt="Metrics">
+  <img src="./metrics.plugin.FerrerasRP.svg" height="100%" alt="Metrics">
 </p>
 
 ---
