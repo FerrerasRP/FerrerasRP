@@ -20,7 +20,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=FerrerasRP&show_icons=true&theme=radical
+          options: username=FerrerasRP&show_icons=true&theme=default
           path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
