@@ -21,7 +21,7 @@ jobs:
           USER_NAME: FerrerasRP
 
       - name: Commit and push generated files
-        uses: stefanzweig/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update generated github stats cards"
           file_pattern: "*.svg"
