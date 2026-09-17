@@ -39,12 +39,14 @@
   <a href="http://www.linkedin.com/in/ricardoferreras"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="http://x.com/ricardoferreras"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://pypi.org/user/rferreras/"><img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="Pypi">
-
 </p>
 
 <p align="center">
   <img src="./metrics.plugin.FerrerasRP.svg"/>
 </p>
+
+---
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FerrerasRP&style=flat-square" alt="counter" />
 </p>
