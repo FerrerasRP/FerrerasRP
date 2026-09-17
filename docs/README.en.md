@@ -1,27 +1,54 @@
-## 🌐 Available Languages
+<p align="right">
+  🌐 <b>Languages:</b> <a href="../README.md">Português - Brasil</a> | <a href="README.en.md">English</a> | <a href="README.es.md">Español</a>
+</p>
 
-- [Português - Brasil](../README.md)
-- [English](README.en.md)
-- [Español](README.es.md)
+<h1 align="center">Hi, I'm Ricardo 🇧🇷👨‍💻♑✝️📝📚💻</h1>
 
-### Hi, I'm Ricardo :brazil::male_sign::capricorn::latin_cross::memo::books::desktop_computer:
+<p align="center">
+  <i>I'm a technology and data enthusiast, always seeking new solutions and innovations.</i>
+</p>
 
-I'm a technology and data enthusiast, always seeking new solutions and innovations.
+---
 
-#### Interpersonal Skills
-1. **Critical Analysis**: I have a sharp analytical ability to solve complex problems.
-2. **Empathetic Communication**: I communicate clearly and comprehensively.
-3. **Effective Collaboration**: I believe in the power of teamwork, where collaboration and idea exchange lead to better outcomes for everyone.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤝 Interpersonal Skills</h3>
+      <ol>
+        <li><b>Critical Analysis:</b> I have a sharp analytical ability to solve complex problems.</li>
+        <li><b>Empathetic Communication:</b> I communicate clearly and comprehensively.</li>
+        <li><b>Effective Collaboration:</b> I believe in the power of teamwork, where collaboration and idea exchange lead to better outcomes for everyone.</li>
+      </ol>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ Technical Skills</h3>
+      <ol>
+        <li><b>Data Analysis:</b> I study and extract value from data for valuable insights.</li>
+        <li><b>Automation:</b> I develop automated routines and processes.</li>
+        <li><b>Process Innovation:</b> I use cutting-edge technology to transform and optimize business processes, ensuring efficiency and superior results.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
-#### Technical Skills
-1. **Data Analysis**: I study and extract value from data for valuable insights.
-2. **Automation**: I develop automated routines and processes.
-3. **Process Innovation**: I use cutting-edge technology to transform and optimize business processes, ensuring efficiency and superior results.
+---
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FerrerasRP/) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/rferreras) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ricardoferreras) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](http://twitter.com/ricardoferreras)
+<p align="center">
+  <a href="https://github.com/FerrerasRP/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.kaggle.com/rferreras"><img src="https://img.shields.io/badge/Kaggle-%23035a7d?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"></a>
+  <a href="http://www.linkedin.com/in/ricardoferreras"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="http://x.com/ricardoferreras"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://pypi.org/user/rferreras/"><img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="Pypi">
 
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FerrerasRP&exclude_repo=dotfiles&langs_count=8&layout=compact&theme=material-palenight)
+</p>
 
-![stats](https://github-readme-stats.vercel.app/api?username=FerrerasRP&theme=material-palenight&rank_icon=github)
-
-![counter](https://komarev.com/ghpvc/?username=FerrerasRP&style=flat-square)
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="../metrics.plugin.FerrerasRP.svg"/>
+    </td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=FerrerasRP&style=flat-square" alt="counter" />
+</p>
