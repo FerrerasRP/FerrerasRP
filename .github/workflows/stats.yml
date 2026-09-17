@@ -1,0 +1,27 @@
+name: GitHub Readme Stats Action
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Executa automaticamente todo dia à meia-noite
+  workflow_dispatch:     # Permite que você rode manualmente quando quiser
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats Cards
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER_NAME: FerrerasRP
+
+      - name: Commit and push generated files
+        uses: stefanzweig/git-auto-commit-action@v4
+        with:
+          commit_message: "Update generated github stats cards"
+          file_pattern: "*.svg"
