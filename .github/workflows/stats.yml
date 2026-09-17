@@ -33,6 +33,19 @@ jobs:
           path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate Metric
+        uses: lowlighter/metrics@latest
+        with:
+            filename: metrics.svg
+            token: ${{ secrets.METRICS_TOKEN }} # Ou use ${secrets.GITHUB_TOKEN}
+            user: FerrerasRP
+            template: classic
+            base: header, activity, community, repositories, metadata
+            plugins_languages: yes
+            plugins_languages_details: bytes-size, percentage
+            plugins_languages_ignored: ""
+            config_timezone: America/Sao_Paulo
+    
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
