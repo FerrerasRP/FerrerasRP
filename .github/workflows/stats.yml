@@ -37,7 +37,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
             filename: metrics.svg
-            token: ${{ secrets.METRICS_TOKEN }} # Ou use ${secrets.GITHUB_TOKEN}
+            token: ${{ secrets.GITHUB_TOKEN }}
             user: FerrerasRP
             template: classic
             base: header, activity, community, repositories, metadata
