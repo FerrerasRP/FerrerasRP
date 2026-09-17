@@ -42,13 +42,9 @@
 
 </p>
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="../metrics.plugin.FerrerasRP.svg"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./metrics.plugin.FerrerasRP.svg"/>
+</p>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FerrerasRP&style=flat-square" alt="counter" />
 </p>
