@@ -19,7 +19,7 @@ jobs:
       - name: Cache de Métricas
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.FerrerasRP.svg
+          filename: card/metrics.plugin.FerrerasRP.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Opções de exibição (Configure como preferir)
@@ -31,21 +31,11 @@ jobs:
           # Plugins adicionais opcionais (Exemplos):
           plugin_lines: yes               # Mostra linhas de código modificadas
           plugin_languages: yes           # Mostra idiomas mais utilizados
+          plugin_languages_ignored: r
+          plugin_languages_aliases: jupyter notebook:python
+          plugin_languages_colors: python:#306998
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 4
           plugin_achievements: no         # Mostra conquistas do GitHub em formato de medalhas
-
-      - name: Most used (with details)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.languages.details.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, r, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
 
