@@ -42,7 +42,12 @@
 </p>
 
 <p align="center">
-  <img src="../metrics.plugin.FerrerasRP.svg" height="100%" alt="Metrics">
+  <img
+    src="../card/metrics.plugin.FerrerasRP.svg"
+    width="480"
+    height="520"
+    alt="GitHub Metrics"
+  />
 </p>
 
 ---

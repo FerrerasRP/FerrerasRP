@@ -45,7 +45,7 @@
   <img
     src="card/metrics.plugin.FerrerasRP.svg"
     width="480"
-    height="510"
+    height="520"
     alt="GitHub Metrics"
   />
 </p>
